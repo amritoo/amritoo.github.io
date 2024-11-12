@@ -958,8 +958,10 @@ section,
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
+  width: 400px;
+  height: 300px;
+  /* width: 90px;
+  border-radius: 50%; */
   margin: 0 auto;
 }
 
@@ -997,6 +999,7 @@ section,
 }
 
 .testimonials .testimonial-item p {
+  height: 120px;
   font-style: italic;
   margin: 0 15px 15px 15px;
   padding: 20px;

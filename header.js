@@ -27,7 +27,17 @@ let appHeader = `
         <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="index.html#publication"><i class="bi bi-images navicon"></i> Publications</a></li>
         <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Projects</a></li>
-        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li class="dropdown"><a href="index.html#services"><i class="bi bi-menu-button navicon"></i> <span>Services</span> <i
+              class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="service-details.html#batch-councilor">Batch Councilor</a></li>
+            <li><a href="service-details.html#advisor">Advisor</a></li>
+            <li><a href="service-details.html#mentor">Mentor</a></li>
+            <li><a href="service-details.html#research-assistant">Research Assistant</a></li>
+            <li><a href="service-details.html#executive-member">Executive Member</a></li>
+          </ul>
+        </li>
+
         <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i
               class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
@@ -42,7 +52,7 @@ let appHeader = `
             <li><a href="#">Dropdown 2</a></li>
           </ul>
         </li>
-        <li><a href="index.html#blog"><i class="bi bi-envelope navicon"></i> Blog</a></li>
+        <li><a href="index.html#blog"><i class="bi bi-envelope navicon"></i> Personal Blog</a></li>
         <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
