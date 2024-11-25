@@ -21,13 +21,13 @@ let appHeader = `
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="/index.html#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="/index.html#home" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="/index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="/index.html#skills"><i class="bi bi-graph-up-arrow navicon"></i>Skills</a></li>
         <li><a href="/index.html#resume"><i class="bi bi-file-earmark-text navicon"></i>Resume</a></li>
         <li><a href="/index.html#publications"><i class="bi bi-journal-richtext navicon"></i>Publications</a></li>
         <li><a href="/index.html#projects"><i class="bi bi-cpu navicon"></i>Projects</a></li>
-        <li class="dropdown"><a href="index.html#services"><i class="bi bi-activity navicon"></i> <span>Activities</span> 
+        <li class="dropdown"><a href="/index.html#activities"><i class="bi bi-activity navicon"></i> <span>Activities</span> 
             <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
             <li><a href="/service-details.html#batch-councilor">Batch Councilor</a></li>
