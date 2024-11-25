@@ -43,6 +43,8 @@
   <header id="header" class="header dark-background d-flex flex-column"></header>
   <script src="header.js"></script>
 
+  <!-- Icons: https://icons.getbootstrap.com/ -->
+
   <main class="main">
 
     <!-- Hero Section -->
@@ -124,25 +126,25 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Publications</strong> <span>Conference</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
               <i class="bi bi-journal-richtext"></i>
               <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+              <p><strong>Publications</strong> <span>Conference and Book Chapters</span></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
-              <i class="bi bi-headset"></i>
+              <i class="bi bi-cpu"></i>
+              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Projects</strong> <span>Web, Android and Desktop Applications</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-graph-up"></i>
               <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
                 class="purecounter"></span>
               <p><strong>Professional Experience</strong> <span>University Lecturer</span></p>
@@ -151,10 +153,10 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
-              <i class="bi bi-people"></i>
+              <i class="bi bi-activity"></i>
               <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p><strong>Extra-Curriculur Experience</strong> <span>rerum asperiores dolor</span></p>
+              <p><strong>Activities</strong> <span>Contributing to Society</span></p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -582,7 +584,78 @@
 
     </section><!-- /Resume Section -->
 
-    <!-- Portfolio Section -->
+    <!-- Publication Section -->
+    <section id="publications" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Publications</h2>
+        <p>The research papers of my undergrad degree and self-interest.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <!-- <li data-filter=".filter-journal">Journal</li> -->
+            <li data-filter=".filter-conference">Conference Proceedings</li>
+            <li data-filter=".filter-book">Book Chapters</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+           <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-conference">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                <a href="portfolio-details.html">
+                  <div class="portfolio-info">
+                    <h4>A Romanization Method for the Bengali Language with Efficient Encoding Scheme</h4>
+                    <p>Benglai to English transliteration using binary encoding technique.</p>
+                    <a href="portfolio-details.html" title="More Details" class="details-link">
+                      <i class="bi bi-link-45deg"></i>
+                    </a>
+                  </div>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-book">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+                <a href="portfolio-details.html">
+                  <div class="portfolio-info">
+                    <h4>Dummy book chapters</h4>
+                    <p>A desktop-based e-learning platform to facilitate education in the post-pandemic Bangladesh</p>
+                    <a href="portfolio-details.html" title="More Details" class="details-link">
+                      <i class="bi bi-link-45deg"></i>
+                    </a>
+                  </div>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+             <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-journal">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                <a href="project-details/jam.html">
+                  <div class="portfolio-info">
+                    <h4>Dummy journal</h4>
+                    <p>A feature-rich android app combining both online and bluetooth messaging</p>
+                    <a href="project-details/jam.html" title="More Details" class="details-link">
+                      <i class="bi bi-link-45deg"></i>
+                    </a>
+                  </div>
+                </a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+        </div>
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Project Section -->
     <section id="projects" class="portfolio section light-background">
 
       <!-- Section Title -->
@@ -733,7 +806,7 @@
 
     </section><!-- /Portfolio Section -->
 
-    <!-- Services Section -->
+    <!-- Activities Section -->
     <section id="services" class="services section">
 
       <!-- Section Title -->
@@ -747,7 +820,7 @@
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+            <div class="icon flex-shrink-0"><i class="bi bi-person-workspace"></i></div>
             <div>
               <h4 class="title"><a href="service-details.html#batch-councilor" class="stretched-link">Batch
                   Councilor</a></h4>
@@ -781,7 +854,7 @@
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+            <div class="icon flex-shrink-0"><i class="bi bi-pc-display-horizontal"></i></div>
             <div>
               <h4 class="title"><a href="service-details.html#research-assistant" class="stretched-link">Research
                   Assistant</a></h4>
@@ -793,7 +866,7 @@
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+            <div class="icon flex-shrink-0"><i class="bi bi-people"></i></div>
             <div>
               <h4 class="title"><a href="service-details.html#executive-member" class="stretched-link">Executive
                   Member</a></h4>
@@ -810,7 +883,7 @@
 
     </section><!-- /Services Section -->
 
-    <!-- Testimonials Section -->
+    <!-- Blog Section -->
     <section id="blog" class="testimonials section light-background">
 
       <!-- Section Title -->
@@ -901,7 +974,7 @@
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Address</h3>
-                  <p>Sabujbagh, Dhaka-1214, Bangladesh</p>
+                  <p>Satarkul, Badda, Dhaka-1212, Bangladesh</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -922,7 +995,7 @@
               </div><!-- End Info Item -->
 
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14609.163442816516!2d90.4406075121783!3d23.737005151388512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b78a9735b78f%3A0x79933ad4e6492b05!2sDakshin%20Gaon%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1731212464997!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.6986998792427!2d90.4445697758981!3d23.793741287110127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c775164bf631%3A0x97f48a5be913a9fc!2sDhaka%20International%20University!5e0!3m2!1sen!2sbd!4v1732516444736!5m2!1sen!2sbd"
                 frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>

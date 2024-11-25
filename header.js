@@ -2,7 +2,7 @@ let appHeader = `
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/my-profile-img.png" alt="" class="img-fluid rounded-circle">
+      <img src="/assets/img/my-profile-img.png" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -23,11 +23,11 @@ let appHeader = `
       <ul>
         <li><a href="/index.html#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="/index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="/index.html#skills"><i class="bi bi-person navicon"></i> Skills</a></li>
-        <li><a href="/index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="/index.html#publications"><i class="bi bi-images navicon"></i> Publications</a></li>
-        <li><a href="/index.html#projects"><i class="bi bi-images navicon"></i> Projects</a></li>
-        <li class="dropdown"><a href="index.html#services"><i class="bi bi-menu-button navicon"></i> <span>Activities</span> 
+        <li><a href="/index.html#skills"><i class="bi bi-graph-up-arrow navicon"></i>Skills</a></li>
+        <li><a href="/index.html#resume"><i class="bi bi-file-earmark-text navicon"></i>Resume</a></li>
+        <li><a href="/index.html#publications"><i class="bi bi-journal-richtext navicon"></i>Publications</a></li>
+        <li><a href="/index.html#projects"><i class="bi bi-cpu navicon"></i>Projects</a></li>
+        <li class="dropdown"><a href="index.html#services"><i class="bi bi-activity navicon"></i> <span>Activities</span> 
             <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
             <li><a href="/service-details.html#batch-councilor">Batch Councilor</a></li>
@@ -37,7 +37,7 @@ let appHeader = `
             <li><a href="/service-details.html#executive-member">Executive Member</a></li>
           </ul>
         </li>
-        <li><a href="/index.html#blog"><i class="bi bi-envelope navicon"></i> Personal Blog</a></li>
+        <li><a href="/index.html#blog"><i class="bi bi-newspaper navicon"></i> Personal Blog</a></li>
         <li><a href="/index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
