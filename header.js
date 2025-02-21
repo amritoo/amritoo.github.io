@@ -22,20 +22,12 @@ let appHeader = `
         <li><a href="/index.html#home" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="/index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="/index.html#skills"><i class="bi bi-graph-up-arrow navicon"></i>Skills</a></li>
-        <li><a href="/index.html#resume"><i class="bi bi-file-earmark-text navicon"></i>Resume</a></li>
+        <li><a href="/index.html#work"><i class="bi bi-file-earmark-text navicon"></i>Work Experience</a></li>
+        <li><a href="/index.html#education"><i class="bi bi-file-earmark-text navicon"></i>Education</a></li>
         <li><a href="/index.html#publications"><i class="bi bi-journal-richtext navicon"></i>Publications</a></li>
         <li><a href="/index.html#projects"><i class="bi bi-cpu navicon"></i>Projects</a></li>
-        <li class="dropdown"><a href="/index.html#activities"><i class="bi bi-activity navicon"></i> <span>Activities</span> 
-            <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="/service-details.html#batch-councilor">Batch Councilor</a></li>
-            <li><a href="/service-details.html#advisor">Advisor</a></li>
-            <li><a href="/service-details.html#mentor">Mentor</a></li>
-            <li><a href="/service-details.html#research-assistant">Research Assistant</a></li>
-            <li><a href="/service-details.html#executive-member">Executive Member</a></li>
-          </ul>
-        </li>
-        <li><a href="/index.html#blog"><i class="bi bi-newspaper navicon"></i> Personal Blog</a></li>
+        <li><a href="/index.html#activities"><i class="bi bi-activity navicon"></i>Activities</a></li>
+        <li><a href="https://amritoo.hashnode.dev/" target="_blank"><i class="bi bi-newspaper navicon"></i> <span style="margin-right: 5px;">Personal Blog</span> <i class="bi bi-box-arrow-up-right"></i></a></li>
         <li><a href="/index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>

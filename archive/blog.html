@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+
+<body>
+    <!-- Blog Section -->
+    <section id="blog" class="testimonials section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Personal Blog <a href="https://amritoo.hashnode.dev/" target="_blank"><i
+                        class="bi bi-box-arrow-up-right"></i></a></h2>
+            <p>I usually write on Hashnode <a href="https://amritoo.hashnode.dev/" target="_blank"><i
+                        class="bi bi-link-45deg"></i></a>. Following are some of my blogs.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    },
+                    "breakpoints": {
+                      "320": {
+                        "slidesPerView": 1,
+                        "spaceBetween": 40
+                      },
+                      "1200": {
+                        "slidesPerView": 3,
+                        "spaceBetween": 1
+                      }
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="assets/img/testimonials/blog-1.avif" class="testimonial-img" alt="blog-1 image">
+                            <p>
+                                <span>Learn about assembly language and registers in the Intel 8086 processor, and basic
+                                    assembly
+                                    codes, including I/O, variables, conditions, and loops.</span>
+                            </p>
+                            <h3><a href="https://amritoo.hashnode.dev/a-beginners-guide-to-assembly-language-using-emu8086"
+                                    target="_blank">A beginners guide to Assembly language using emu8086</a></h3>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="assets/img/testimonials/blog-1.avif" class="testimonial-img" alt="blog-1 image">
+                            <p>
+                                <span>A short program to find the binary representation of any signed interger
+                                    number.</span>
+                            </p>
+                            <h3><a href="https://amritoo.hashnode.dev/2s-complement-in-assembly"
+                                    target="_blank">Calculate 2's
+                                    complement of a number in assembly language</a></h3>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /Blog Section -->
+</body>
+
+</html>

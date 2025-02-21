@@ -4,7 +4,7 @@ let appFooter = `
         <p>© <span>Copyright</span> <strong class="px-1 sitename">Amrita Das Tipu</strong> <span>All Rights
             Reserved</span>
         </p>
-        <p>Last updated on November 2024</p>
+        <p>Last updated on January 2025</p>
         </div>
         <div class="credits">
         <!-- All the links in the footer should remain intact. -->
