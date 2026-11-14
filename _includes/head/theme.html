@@ -57,7 +57,12 @@
     }
 
     function toggle(e) {
-      if (e) e.preventDefault();
+      if (e) {
+        e.preventDefault();
+        // Stop the click reaching any other (e.g. stale cached) theme handler
+        // on the parent element, which would flip the theme straight back.
+        e.stopPropagation();
+      }
       var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
       setStored(next === baseline() ? null : next);
       apply(next);
