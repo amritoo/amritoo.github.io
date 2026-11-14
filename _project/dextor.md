@@ -1,14 +1,14 @@
 ---
 title: "Dextor: A Platform Independent Learning Application"
-excerpt: "A desktop-based e-learning platform to facilitate education in the post-pandemic Bangladesh.<br/><img src='/images/projects/dextor.png'>"
+excerpt: "A desktop e-learning platform designed to support education in post-pandemic Bangladesh.<br/><img src='/images/projects/dextor.png'>"
 collection: project
 ---
 
 **Completion Date:** May 2022
 
-**Tools:** Java, JavaFX, CSS, MySQL, Xampp.
+**Tools:** Java, JavaFX, CSS, MySQL, XAMPP.
 
-- Developed an e-learning application to facilitate education in the post-pandemic situation of Bangladesh.
-- Implemented various academic roles and corresponding features, reducing learning curve for users.
+- Developed a cross-platform e-learning application to support education in post-pandemic Bangladesh.
+- Implemented distinct academic roles with tailored features, reducing the learning curve for users.
 
-Visit [this page](https://github.com/amritoo/Dextor) to view the source code.
+The source code is available on [GitHub](https://github.com/amritoo/Dextor).

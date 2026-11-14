@@ -19,7 +19,7 @@ Syllabus Overview
 - **Concept of OOP:** Introduction to OOP, OOP Principles, Overview on Polymorphism, Encapsulation, Abstraction and Inheritance.
 - **Java Overview:** History of Java, JVM, Characteristics of Java program, Java Syntax with Elementary Programming, Primitive Data Types, Strings, Operators, Statements, Arrays and Methods.
 - **Classes and Objects:** Instance Variables, Class Variables, Class creation, Object Creation, Constructors. 
-- **Methods:** Instance Methods, Class Methods, Method Overloading, Way of Method Overloading, Method Overriding, Way of Method Overriding and This keyword.
+- **Methods:** Instance Methods, Class Methods, Method Overloading, Ways of Method Overloading, Method Overriding, Ways of Method Overriding and the this keyword.
 - **Interfaces:** Purpose of Interfaces, Interface Declaration, Implementing an Interface, Interface Inheritance and Its Classification.
 - **Inheritance:** Purpose of Inheritance, Types of Inheritance, Single Inheritance, Multilevel Inheritance, Multiple Inheritances.
 - **Multithreading:** Overview on Multithreading, Classification of Multithreading, Runnable Interface, Try Catch.

@@ -1,6 +1,6 @@
 ---
 permalink: /experience/
-title: ""
+title: "Experience"
 author_profile: true
 ---
 
@@ -16,11 +16,14 @@ Professional Experience
 <p>Department of Computer Science and Engineering, Dhaka International University (DIU), Satarkul, Badda, Dhaka-1212, Bangladesh</p>
 ------
 
-**Key Responsibilities:**
-- Develope teaching and student guiding skills.
-- Implemented outcome-based education (OBE), enhancing learning for students.
+*On study leave since July 20, 2025, to pursue a PhD at Deakin University.*
 
-**Courses Taught:** To see the courses I teach, visit [this page](https://amritoo.github.io/teaching).
+**Key Responsibilities:**
+- Design and deliver undergraduate theory and laboratory courses in computer science and engineering.
+- Implement Outcome-Based Education (OBE) in course design, delivery, and assessment.
+- Supervise and mentor students in coursework, projects, and academic development.
+
+**Courses Taught:** A complete list of courses is available on the [Teaching](/teaching/) page.
 
 
 <div style="display: flex; justify-content: space-between;">
@@ -30,44 +33,44 @@ Professional Experience
 <p>Hajee Mohammad Danesh Science and Technology University (HSTU), Dinajpur-5200, Bangladesh</p>
 ------
 
-During the Covid-19 pandemic, I had the opportunity to participate in a research project led by Dr. Md. Arshad Ali  to develop a biometric attendance system using smart IoT device. Together with my team, we built the system from the ground up under his guidance.
-- Gained valuable experience working with Raspberry Pi computers and fingerprint sensors for biometric data collection.
-- Learned back-end development and contributed to the system's database design and server integration.
-- Collaborated closely with team members to troubleshoot and optimize system performance.
-- Assisted in testing and debugging the system to ensure accuracy and reliability.
+During the COVID-19 pandemic, I worked on a research project led by Dr. Md. Arshad Ali to develop an IoT-based biometric attendance system. Under his supervision, our team designed and built the system end to end.
+- Worked with Raspberry Pi single-board computers and fingerprint sensors for biometric data acquisition.
+- Developed back-end components and contributed to database design and server integration.
+- Collaborated with team members to diagnose issues and optimize system performance.
+- Conducted testing and debugging to ensure the accuracy and reliability of the system.
 
-This project inspired me to create solutions for real-world problems and gave me an overview of the entire system development lifecycle. It proved valuable in later semesters when I worked with my team on multiple projects to meet course requirements.
+The project provided hands-on exposure to the complete system development lifecycle and strengthened my interest in building solutions to real-world problems, which informed my subsequent team projects during my undergraduate studies.
 
 
 Other Experience
 ======
 
 <div style="display: flex; justify-content: space-between;">
-  <span style="font-size:20px"><b>Batch Councilor</b></span>
+  <span style="font-size:20px"><b>Batch Counselor</b></span>
   <span><i>May 2024 - Present</i></span>
 </div>
 <p>Dhaka International University (DIU), Satarkul, Badda, Dhaka-1212, Bangladesh</p>
 ------
 
-Since joining DIU, I have been coordinating a student batch, with responsibilities that include:
-- Coordinating between students and faculty for prompt and effective communications.
-- Solving various issues to ensure a better learning environment.
-- Guiding and encouraging students to do better.
+As a batch counselor, I coordinate an undergraduate student cohort. My responsibilities include:
+- Facilitating timely and effective communication between students and faculty.
+- Addressing academic and administrative concerns to maintain a supportive learning environment.
+- Providing academic guidance and encouraging students to reach their potential.
 
-This responsibility allows me to closely observe students, address their questions on a variety of topics, and deepen my understanding of their learning needs. It helps me manage the class effectively, creating an environment where students feel supported and encouraged to participate. Additionally, I gain valuable experience in balancing administrative tasks with academic mentorship, continuously refining my skills in classroom management and student guidance.
+This role offers close insight into students' learning needs and supports effective classroom management. It has also strengthened my ability to balance administrative duties with academic mentorship.
 
 <div style="display: flex; justify-content: space-between;">
   <span style="font-size:20px"><b>Advisor</b></span>
-  <span><i>December 2024 - Present</i></span>
+  <span><i>December 2024 - June 2025</i></span>
 </div>
-<p>Cyber Security Club Committee, Dhaka International University (DIU), Satarkul, Badda, Dhaka-1212, Bangladesh</p>
+<p>Cyber Security Club, Dhaka International University (DIU), Satarkul, Badda, Dhaka-1212, Bangladesh</p>
 ------
 
-I currently serve as an advisor for two student clubs at DIU. My responsibilities include -
-- Leading students to conduct workshops on cyber-security to raise awareness.
-- Conducting one-to-one discussionand continuously motivating students to improve themselves.
+I served as an advisor to the Cyber Security Club at DIU. My responsibilities included:
+- Guiding students in organizing workshops to promote cybersecurity awareness.
+- Holding one-on-one discussions to support students' academic and professional growth.
 
-This position is deeply meaningful to me because it allows me to mentor and guide students, which brings immense fulfillment. Watching them grow, overcome challenges, and achieve success is incredibly rewarding. Being part of their academic and personal development gives my work a strong sense of purpose, and the opportunity to inspire and support their progress motivates me to continually improve as an educator.
+This role allowed me to mentor students beyond the classroom and to support their development as both learners and future professionals.
 
 <div style="display: flex; justify-content: space-between;">
   <span style="font-size:20px"><b>Mentor</b></span>
@@ -76,12 +79,12 @@ This position is deeply meaningful to me because it allows me to mentor and guid
 <p>HSTU Machine Learning Enthusiasts, Hajee Mohammad Danesh Science and Technology University (HSTU), Dinajpur-5200, Bangladesh</p>
 ------
 
-As one of the founding members of this club at HSTU, I helped establish its mission to inspire and nurture interest in machine learning among students.
-- Organized and conducted introductory workshops on machine learning for junior students.
-- Developed learning materials and resources to simplify complex machine learning concepts.
+As a founding member of this club, I helped establish its mission of fostering interest in machine learning among students.
+- Organized and delivered introductory machine learning workshops for junior students.
+- Developed learning materials that present core machine learning concepts accessibly.
 - Mentored students in applying machine learning techniques to real-world problems.
 
-This experience helped me improve my ability to guide students through machine learning topics and boosted my teaching and mentorship skills. We were passonate about promoting machine learning and its potential in our country, aiming to inspire more students to explore this field. Working together also gave me a better understanding of how emerging technologies can impact both local and global communities.
+This experience strengthened my teaching and mentoring skills and deepened my appreciation of how emerging technologies can benefit both local and global communities.
 
 <div style="display: flex; justify-content: space-between;">
   <span style="font-size:20px"><b>Executive Member</b></span>
@@ -90,17 +93,26 @@ This experience helped me improve my ability to guide students through machine l
 <p>Programmers' Arena (PA), Hajee Mohammad Danesh Science and Technology University (HSTU), Dinajpur-5200, Bangladesh</p>
 ------
 
-Early in my undergraduate years, I developed a strong passion for problem-solving and competitive programming. I joined the club as a general member and took on official positions starting in 2019. The club helped refine my problem-solving skills and provided an opportunity to connect with like-minded individuals.
+I joined Programmers' Arena as a general member early in my undergraduate studies and held executive positions from 2019 onward. The club sharpened my problem-solving skills and connected me with a community of like-minded peers.
 
-- Solved 500+ problems in various online judges. 
-- Participated in numerous online programming contests and intra-university contests. 
-- Represented my university in one National Collegiate Programming Contest (NCPC) and two Inter-University Programming Contests (IUPCs).
-- Played an active role in organizing intra-university programming contests, managing event logistics, and ensuring smooth execution.
-- Gained valuable experience in teamwork, critical thinking, and time management.
-- Mentored newer club members, helping them prepare for contests and improve their problem-solving skills.
+- Solved more than 500 problems across various online judges.
+- Participated in numerous online and intra-university programming contests.
+- Represented the university at one National Collegiate Programming Contest (NCPC) and two Inter-University Programming Contests (IUPCs).
+- Organized intra-university programming contests, including event logistics and execution.
+- Mentored new members in contest preparation and problem-solving.
 
 Education
 ======
+
+<div style="display: flex; justify-content: space-between;">
+  <span style="font-size:20px"><b>Doctor of Philosophy (PhD)</b></span>
+  <span><i>September 2025 - Present</i></span>
+</div>
+<p>School of Information Technology, Deakin University, Burwood Campus, Melbourne, Victoria, Australia</p>
+------
+
+- **Commencement:** September 18, 2025
+- **Confirmation of Candidature:** Completed on June 18, 2026
 
 <div style="display: flex; justify-content: space-between;">
   <span style="font-size:20px"><b>Bachelor of Science (Engineering)</b></span>
@@ -109,11 +121,9 @@ Education
 <p>Hajee Mohammad Danesh Science and Technology University (HSTU), Dinajpur-5200, Bangladesh</p>
 ------
 
-The most impactful educational experience in my life, it not only imparted various lessons but also contributed to shaping my character.
-
 - **Major:** Computer Science and Engineering
 - **Academic Year:** 2018 - 2021
-- **Total Credit:** 154.75
+- **Total Credits:** 154.75
 - **Result Publication Date:** November 29, 2023
 
-Results were delayed due to COVID-19 and the degree was conferred on December 19, 2023.
+The publication of results was delayed owing to the COVID-19 pandemic; the degree was conferred on December 19, 2023.

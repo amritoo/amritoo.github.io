@@ -16,9 +16,9 @@ The associated lab component (CSE-408) focused on hands-on experience with machi
 
 Syllabus Overview
 ======
-- **Introduction:** Introduction to Artificial Intelligence, Simulation of sophisticated & Intelligent Behavior in different area, problem solving in games, natural language, automated reasoning, visual perception, heuristic algorithm versus solution guaranteed algorithms.
-- **Understanding Natural Languages:** Parsing techniques, context free and transformational grammars, transition nets, augmented transition nets, Fillmore's grammars, Shanks Conceptual Dependency, grammar free analyzers, sentence generation, and translation.
-- **Knowledge Representation:** First order predicate calculus, Horn Clauses, Introduction to PROLOG, Semantic Nets, Partitioned Net, Minskey frames, Case Grammar Theory, Production Rules Knowledge Base, The Interface System, Forward & Backward Deduction.
+- **Introduction:** Introduction to Artificial Intelligence, Simulation of sophisticated and intelligent behavior in different areas, problem solving in games, natural language, automated reasoning, visual perception, heuristic algorithms versus solution-guaranteed algorithms.
+- **Understanding Natural Languages:** Parsing techniques, context free and transformational grammars, transition nets, augmented transition nets, Fillmore's grammars, Schank's Conceptual Dependency, grammar free analyzers, sentence generation, and translation.
+- **Knowledge Representation:** First order predicate calculus, Horn Clauses, Introduction to PROLOG, Semantic Nets, Partitioned Net, Minsky frames, Case Grammar Theory, Production Rules Knowledge Base, The Inference System, Forward & Backward Deduction.
 - **Expert System:** Existing Systems (DENDRAL, MYCIN), domain exploration, Meta Knowledge, Expertise Transfer, Self-Explaining System.
-- **Pattern Recognition:** Introduction to Pattern Recognition. Structured Description, Symbolic Description, Machine perception, Line Finding, Interception, Semantic & Model, Object Identification, Speech Recognition.
+- **Pattern Recognition:** Introduction to Pattern Recognition. Structured Description, Symbolic Description, Machine perception, Line Finding, Interpretation, Semantic & Model, Object Identification, Speech Recognition.
 - **Programming Language:** Introduction to programming Language, LISP, PROLOG.

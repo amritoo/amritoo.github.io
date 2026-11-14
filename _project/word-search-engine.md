@@ -1,6 +1,6 @@
 ---
 title: "Word Search Engine"
-excerpt: "A command-line project for seeking word meaning with spelling suggestions.<br/><img src='/images/projects/word_search_engine.png'>"
+excerpt: "A command-line dictionary that retrieves word definitions and suggests corrections for misspelled queries.<br/><img src='/images/projects/word_search_engine.png'>"
 collection: project
 ---
 
@@ -9,7 +9,7 @@ collection: project
 
 **Tools:** C Language, Flat-file Database, Code::Blocks.
 
-- Developed a command-line project for seeking word meaning.
-- Implemented Levenshtein distance algorithm for calculating difference between words and displaying top spelling suggestions.
+- Developed a command-line dictionary application for looking up word definitions.
+- Implemented the Levenshtein distance algorithm to measure word similarity and display the top spelling suggestions.
 
-Visit [this page](https://github.com/amritoo/word-search-engine) to view the source code.
+The source code is available on [GitHub](https://github.com/amritoo/word-search-engine).

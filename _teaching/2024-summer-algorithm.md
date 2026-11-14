@@ -18,9 +18,9 @@ Syllabus Overview
 ======
 - **Mathematical Preliminaries:** Review of growth of functions, summations and recurrences.
 - **Sorting and Order Statistics:** Heap sort, Quick sort, Merge sort, Lower bounds for sorting, Radix sort, Bucket sort, Median and order statistics.
-- **Advanced Data Structures:** Review of binary search trees, dynamic set operation, randomly built binary trees, red black trees, order statistic tree binomial heaps, Fibonacci heaps, disjoint sets.
-- **Dynamic Programming:** Matrix chain multiplication, longest common subsequences and optional polygon triangulation problems.
+- **Advanced Data Structures:** Review of binary search trees, dynamic set operation, randomly built binary trees, red black trees, order statistic trees, binomial heaps, Fibonacci heaps, disjoint sets.
+- **Dynamic Programming:** Matrix chain multiplication, longest common subsequences and optimal polygon triangulation problems.
 - **Greedy Algorithms:** Activity selection, Huffman coding, and task scheduling problem.
 - **Amortized Analysis:** Aggregate, accounting, potential methods, and dynamic tables.
 - **Matrix operations:** Strassen’s algorithm, system of equations - LU decompositions and matrix inversion.
-- **Graph algorithms:** Traversal connected components - biconnected and strongly connected components, minimal spanning trees.
+- **Graph algorithms:** Traversal, connected components, biconnected and strongly connected components, minimal spanning trees.

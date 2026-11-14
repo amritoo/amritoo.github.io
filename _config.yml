@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Amrita Das Tipu"
 title_separator          : "-"
 name                     : &name "Amrita Das Tipu"
-description              : &description "This is my personal description"
+description              : &description "Amrita Das Tipu is a PhD candidate in the School of Information Technology at Deakin University and a Lecturer (on study leave) at Dhaka International University, researching machine learning, natural language processing, and interpretable AI."
 url                      : https://amritoo.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "amritoo/amritoo.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Amrita Das Tipu"
   pronouns         : "he/him" # example: "she/her"  
-  bio              : "Lecturer, CSE, DIU | ML Researcher"
-  location         : "Dhaka, Bangladesh"
-  employer         : "Dhaka International University"
+  bio              : "PhD Candidate, Deakin University | Lecturer (on study leave), DIU"
+  location         : "Melbourne, Australia"
+  employer         : "Deakin University"
   uri              : "https://profile.diu.ac/amritadastipu" # URL
   email            : "amrita.dtipu@gmail.com" 
 
@@ -152,7 +152,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -281,7 +281,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _portfolio
   - scope:
       path: ""
@@ -290,7 +290,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _talks
   - scope:
       path: ""
@@ -311,7 +311,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Asia/Dhaka # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Australia/Melbourne # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

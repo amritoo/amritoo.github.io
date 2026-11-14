@@ -19,7 +19,7 @@ Syllabus Overview
 - **Transmission Media:** Characteristics and applications of twisted pairs, coaxial cables and optical fibers, terrestrial and Satellite microwaves, Radio waves, VSAT.
 - **Data Encoding:** Data and signal, NRZ, Manchester and differential Manchester encoding, ASK, FSK, PSK, QPSK, QAM encoding, spread spectrum technique, modems, sampling theorem and pulse code modulation techniques and speech digitalization.
 - **Data Transmission:** Asynchronous and synchronous data transmission techniques, error detection techniques - parity checks and CRC, error correction and hamming code. Interfacing EIA 232D or RS 232C, Null modem connection.
-- **Data Link Control:** Line configurations, flow control and error control techniques - sliding window, stop and wait ARQ, selective-Reject ARQ and HLDLC protocols.
+- **Data Link Control:** Line configurations, flow control and error control techniques - sliding window, stop and wait ARQ, selective-reject ARQ and HDLC protocols.
 - **Multiplexing:** Frequency division multiplexing, international FDM carrier standards, synchronous time division multiplexing, international TDM carrier standards, statistical time division multiplexing, SONET and SDH.
-- **Data Communication Networking:** Circuit switching network, space divisions and TDM switching, time slot interchange, packet switching, datagram and virtual circuits, comparison of circuit and packet switching, routine target and congestion control, X.25 standard.
+- **Data Communication Networking:** Circuit switching network, space divisions and TDM switching, time slot interchange, packet switching, datagram and virtual circuits, comparison of circuit and packet switching, routing and congestion control, X.25 standard.
 - **Telecommunications:** Introduction to telecommunication. Structure of public telephone system and its operation, simplex, duplex, half-duplex, full-duplex communications, stored program control.

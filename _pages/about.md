@@ -10,11 +10,11 @@ redirect_from:
 <!-- **Notice!** You can also add notices by appending `{: .notice}` to the line following paragraph.
 {: .notice} -->
 
-I am a dedicated [Lecturer](https://profile.diu.ac/amritadastipu) at [Dhaka International University (DIU)](https://diu.ac/), committed to enhancing the quality of education through continuous self-improvement. I earned my Bachelor of Science (Engineering) in Computer Science and Engineering from [Hajee Mohammad Danesh Science and Technology University (HSTU)](https://hstu.ac.bd/) in 2023. Shortly after graduation, I joined DIU as a lecturer, where I continue to teach and inspire students.
+I am a PhD candidate in the School of Information Technology at [Deakin University](https://www.deakin.edu.au/), Burwood Campus, Melbourne, Australia, where I commenced my doctoral studies in September 2025 and was confirmed as a candidate in June 2026. I am currently on study leave from my position as a [Lecturer](https://profile.diu.ac/amritadastipu) in the Department of Computer Science and Engineering at [Dhaka International University (DIU)](https://diu.ac/), where I have taught undergraduate courses since May 2024. I received my Bachelor of Science (Engineering) in Computer Science and Engineering from [Hajee Mohammad Danesh Science and Technology University (HSTU)](https://hstu.ac.bd/) in 2023.
 
-Beyond teaching, I have a strong passion for research, particularly in machine learning and natural language processing. I am always eager to explore emerging technologies and expand my knowledge. In my free time, I enjoy reading books and engaging in intellectual discussions that fuel my curiosity and drive for innovation.
+My research lies at the intersection of machine learning and natural language processing, with a particular emphasis on interpretable and explainable AI. My published work spans Bengali–English transliteration, explainable models for early-stage obesity risk assessment, and data-driven analysis of CO<sub>2</sub> emissions and their relationship to sustainable economic growth. As an educator, I am committed to outcome-based teaching and to mentoring students in research and problem-solving.
 
-Research Interest
+Research Interests
 ======
 
 - Artificial Intelligence (AI) and Machine Learning (ML)
@@ -26,11 +26,13 @@ Research Interest
 News
 ======
 
-- **2024-12-28:** I took on the role of [advisor](https://www.linkedin.com/posts/cscdiu23_announcement-formation-of-a-new-committee-ugcPost-7281693753692594177-LZrq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACq6hMQBjfBkaX9Hm5AKmJn9wI4SrLOW1Tg) for the Cyber Security Club at Dhaka International University.
-- **2024-05-02:** I joined as a [Lecturer](https://profile.diu.ac/amritadastipu) in the department of Computer Science and Engineering (CSE) at Dhaka International University (DIU).
-- **2024-03-30:** My first conference paper was published as a [book chapter](https://link.springer.com/chapter/10.1007/978-981-99-8937-9_41) in Springer LNNS series.
+- **2026-06-18:** Successfully completed my PhD Confirmation of Candidature at Deakin University.
+- **2025-09-18:** Commenced my PhD in the School of Information Technology at Deakin University, Burwood, Melbourne, Australia.
+- **2025-07-20:** Began study leave from my Lecturer position at Dhaka International University to pursue doctoral studies.
+- **2025-06-30:** Concluded my term as advisor to the Cyber Security Club at Dhaka International University.
+- **2025-05-22:** Two co-authored chapters on machine learning for CO<sub>2</sub> emissions analysis were published in Springer's *Machine Learning Technologies on Energy Economics and Finance* (see [Publications](/publications/)).
 
-For older news, visit [this page](https://amritoo.github.io/news/).
+Earlier announcements are available on the [News](/news/) page.
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! -->
 

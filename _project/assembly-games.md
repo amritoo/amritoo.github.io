@@ -1,6 +1,6 @@
 ---
 title: "Games in Assembly Language"
-excerpt: "A command-line number and letter guessing game using assembly language and emu8086.<br/><img src='/images/projects/assembly_games.png'>"
+excerpt: "Command-line number- and letter-guessing games written in 8086 assembly language using emu8086.<br/><img src='/images/projects/assembly_games.png'>"
 collection: project
 ---
 
@@ -9,6 +9,6 @@ collection: project
 
 **Tools:** Assembly Language, emu8086.
 
-- Developed a command-line number and letter guessing game.
+- Developed command-line number- and letter-guessing games in 8086 assembly language.
 
-Visit [this page](https://github.com/amritoo/assembly-games) to view the source code.
+The source code is available on [GitHub](https://github.com/amritoo/assembly-games).

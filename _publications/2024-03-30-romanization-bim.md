@@ -9,7 +9,7 @@ venue: 'Proceedings of the 2nd International Conference on Big Data, IoT and Mac
 paperurl: 'https://link.springer.com/chapter/10.1007/978-981-99-8937-9_41'
 slidesurl: '/files/slide/2024-03-30-romanization-bim.pdf'
 bibtexurl: '/files/bibtex/2024-03-30-romanization-bim.bib'
-citation: 'Tipu, A.D., Fahad, M., Mandal, A.K. (2024). &quot;Paper A Romanization Method for the Bengali Language with Efficient Encoding Scheme.&quot; In: Arefin, M.S., Kaiser, M.S., Bhuiyan, T., Dey, N., Mahmud, M. (eds) <i>Proceedings of the 2nd International Conference on Big Data, IoT and Machine Learning</i>. BIM 2023. Lecture Notes in Networks and Systems, vol 867. Springer, Singapore.'
+citation: 'Tipu, A.D., Fahad, M., Mandal, A.K. (2024). &quot;A Romanization Method for the Bengali Language with Efficient Encoding Scheme.&quot; In: Arefin, M.S., Kaiser, M.S., Bhuiyan, T., Dey, N., Mahmud, M. (eds) <i>Proceedings of the 2nd International Conference on Big Data, IoT and Machine Learning</i>. BIM 2023. Lecture Notes in Networks and Systems, vol 867. Springer, Singapore.'
 ---
 
 Abstract

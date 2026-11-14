@@ -1,6 +1,6 @@
 ---
 title: "ARKBook: University One Touch Away"
-excerpt: "An android-based academic resource management app for HSTU with various utility functionalities and roles.<br/><img src='/images/projects/arkbook.png'>"
+excerpt: "An Android application for managing academic resources at HSTU, featuring role-based access and student utility tools.<br/><img src='/images/projects/arkbook.png'>"
 collection: project
 ---
 
@@ -8,8 +8,8 @@ collection: project
 
 **Tools:** Java, XML, SQLite, Android Studio, Firebase, Room Persistence Library.
 
-- Developed an android-based hassle-free academic resource management application for HSTU.
-- Implemented utility functionalities supporting a student in daily academic works.
-- Created specific roles for adding and viewing contents.
+- Developed an Android application that streamlines access to academic resources at HSTU.
+- Implemented utility features that support students in their day-to-day academic activities.
+- Designed role-based permissions for publishing and viewing content.
 
-Visit [this page](https://github.com/amritoo/ARKBook) to view the source code.
+The source code is available on [GitHub](https://github.com/amritoo/ARKBook).

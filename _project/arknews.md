@@ -1,6 +1,6 @@
 ---
 title: "ARKNews: Android-based News App for Fast and Ad-free Experience"
-excerpt: "An android application presenting latest headlines from various newspaperswith various utility features.<br/><img src='/images/projects/arknews.png'>"
+excerpt: "An Android application that aggregates the latest headlines from multiple newspapers, with offline reading and history tracking.<br/><img src='/images/projects/arknews.png'>"
 collection: project
 ---
 
@@ -8,7 +8,7 @@ collection: project
 
 **Tools:** Java, XML, SQLite, Android Studio, Room Persistence Library.
 
-- Developed an android application presenting latest headlines from various newspapers.
-- Implemented various utility features including downloading for offline viewing and history tracking.
+- Developed an Android application that aggregates the latest headlines from multiple newspapers in an ad-free interface.
+- Implemented utility features, including article downloads for offline reading and reading-history tracking.
 
-Visit [this page](https://github.com/amritoo/ARKNews) to view the source code.
+The source code is available on [GitHub](https://github.com/amritoo/ARKNews).
