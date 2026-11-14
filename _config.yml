@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Amrita Das Tipu"
+title                    : "Amrito Tipu"
 title_separator          : "-"
-name                     : &name "Amrita Das Tipu"
-description              : &description "Amrita Das Tipu is a PhD candidate in the School of Information Technology at Deakin University and a Lecturer (on study leave) at Dhaka International University, researching machine learning, natural language processing, and interpretable AI."
+name                     : &name "Amrito Tipu"
+description              : &description "Amrito Tipu is a PhD candidate in the School of Information Technology at Deakin University and a Lecturer (on study leave) at Dhaka International University, researching neuro-symbolic AI, physiological signals, and interpretable machine learning."
 url                      : https://amritoo.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "amritoo/amritoo.github.io"
@@ -23,13 +23,13 @@ repository               : "amritoo/amritoo.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Amrita Das Tipu"
+  name             : "Amrita Das (Amrito) Tipu"
   pronouns         : "he/him" # example: "she/her"  
   bio              : "PhD Candidate, Deakin University | Lecturer (on study leave), DIU"
   location         : "Melbourne, Australia"
   employer         : "Deakin University"
-  uri              : "https://profile.diu.ac/amritadastipu" # URL
-  email            : "amrita.dtipu@gmail.com" 
+  uri              : "https://experts.deakin.edu.au/71410-amrito-tipu" # URL
+  email            : "a.tipu@research.deakin.edu.au" # Email address
 
   # Academic websites
   academia         : # URL
@@ -189,6 +189,15 @@ exclude:
   - README
   - tmp
   - vendor
+  # Development/tooling files that should not be served
+  - CONTRIBUTING.md
+  - docker-compose.yaml
+  - markdown_generator
+  - scripts
+  - talkmap.py
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - CLAUDE.md
 keep_files:
   - .git
   - .svn
@@ -237,6 +246,83 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
+  # Template demo content: still built, but hidden from sitemap.xml and /sitemap/
+  - scope:
+      path: "_posts"
+    values:
+      sitemap: false
+  - scope:
+      path: "_talks"
+    values:
+      sitemap: false
+  - scope:
+      path: "files/paper*.pdf"
+    values:
+      sitemap: false
+  - scope:
+      path: "files/slides*.pdf"
+    values:
+      sitemap: false
+  - scope:
+      path: "talkmap"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/archive-layout-with-content.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/category-archive.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/collection-archive.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/cv-json.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/markdown.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/non-menu-page.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/page-archive.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/portfolio.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/reading-list.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/tag-archive.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/talkmap.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/talks.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/terms.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/year-archive.html"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""

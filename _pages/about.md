@@ -10,24 +10,24 @@ redirect_from:
 <!-- **Notice!** You can also add notices by appending `{: .notice}` to the line following paragraph.
 {: .notice} -->
 
-I am a PhD candidate in the School of Information Technology at [Deakin University](https://www.deakin.edu.au/), Burwood Campus, Melbourne, Australia, where I commenced my doctoral studies in September 2025 and was confirmed as a candidate in June 2026. I am currently on study leave from my position as a [Lecturer](https://profile.diu.ac/amritadastipu) in the Department of Computer Science and Engineering at [Dhaka International University (DIU)](https://diu.ac/), where I have taught undergraduate courses since May 2024. I received my Bachelor of Science (Engineering) in Computer Science and Engineering from [Hajee Mohammad Danesh Science and Technology University (HSTU)](https://hstu.ac.bd/) in 2023.
+I am a [PhD candidate](https://experts.deakin.edu.au/71410-amrito-tipu) in the School of Information Technology at [Deakin University](https://www.deakin.edu.au/), Melbourne Burwood Campus, Victoria, Australia, where I commenced my doctoral studies in September 2025 and was confirmed as a candidate in June 2026. I am currently on study leave from my position as a Lecturer in the Department of Computer Science and Engineering at [Dhaka International University (DIU)](https://diu.ac/), where I taught undergraduate courses from May 2024 to July 2025. I received my Bachelor of Science (Engineering) in Computer Science and Engineering from [Hajee Mohammad Danesh Science and Technology University (HSTU)](https://hstu.ac.bd/) in 2023.
 
-My research lies at the intersection of machine learning and natural language processing, with a particular emphasis on interpretable and explainable AI. My published work spans Bengali–English transliteration, explainable models for early-stage obesity risk assessment, and data-driven analysis of CO<sub>2</sub> emissions and their relationship to sustainable economic growth. As an educator, I am committed to outcome-based teaching and to mentoring students in research and problem-solving.
+My doctoral research focuses on neuro-symbolic AI and its application to physiological signals, aiming to combine the representational power of modern machine learning and foundation models with the transparency of symbolic reasoning to build interpretable AI systems. My prior published work spans Bengali–English transliteration, explainable models for early-stage obesity risk assessment, and data-driven analysis of CO<sub>2</sub> emissions and their relationship to sustainable economic growth. As an educator, I am committed to outcome-based teaching and to mentoring students in research and problem-solving.
 
 Research Interests
 ======
 
 - Artificial Intelligence (AI) and Machine Learning (ML)
-- Natural Language Processing (NLP)
+- Neuro-Symbolic AI
+- Physiological Signals
 - Interpretable AI
 - Foundation Models
-- Human-AI Interaction
 
 News
 ======
 
 - **2026-06-18:** Successfully completed my PhD Confirmation of Candidature at Deakin University.
-- **2025-09-18:** Commenced my PhD in the School of Information Technology at Deakin University, Burwood, Melbourne, Australia.
+- **2025-09-18:** Commenced my PhD in the School of Information Technology at Deakin University, Melbourne Burwood Campus, Victoria, Australia.
 - **2025-07-20:** Began study leave from my Lecturer position at Dhaka International University to pursue doctoral studies.
 - **2025-06-30:** Concluded my term as advisor to the Cyber Security Club at Dhaka International University.
 - **2025-05-22:** Two co-authored chapters on machine learning for CO<sub>2</sub> emissions analysis were published in Springer's *Machine Learning Technologies on Energy Economics and Finance* (see [Publications](/publications/)).

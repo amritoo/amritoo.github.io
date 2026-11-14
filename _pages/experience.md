@@ -47,17 +47,17 @@ Other Experience
 
 <div style="display: flex; justify-content: space-between;">
   <span style="font-size:20px"><b>Batch Counselor</b></span>
-  <span><i>May 2024 - Present</i></span>
+  <span><i>May 2024 - July 2025</i></span>
 </div>
 <p>Dhaka International University (DIU), Satarkul, Badda, Dhaka-1212, Bangladesh</p>
 ------
 
-As a batch counselor, I coordinate an undergraduate student cohort. My responsibilities include:
+As a batch counselor, I coordinated an undergraduate student cohort. My responsibilities included:
 - Facilitating timely and effective communication between students and faculty.
 - Addressing academic and administrative concerns to maintain a supportive learning environment.
 - Providing academic guidance and encouraging students to reach their potential.
 
-This role offers close insight into students' learning needs and supports effective classroom management. It has also strengthened my ability to balance administrative duties with academic mentorship.
+This role offered close insight into students' learning needs and supported effective classroom management. It also strengthened my ability to balance administrative duties with academic mentorship.
 
 <div style="display: flex; justify-content: space-between;">
   <span style="font-size:20px"><b>Advisor</b></span>
@@ -108,9 +108,10 @@ Education
   <span style="font-size:20px"><b>Doctor of Philosophy (PhD)</b></span>
   <span><i>September 2025 - Present</i></span>
 </div>
-<p>School of Information Technology, Deakin University, Burwood Campus, Melbourne, Victoria, Australia</p>
+<p>School of Information Technology, Deakin University, Melbourne Burwood Campus, Victoria-3125, Australia</p>
 ------
 
+- **Research Topic:** Neuro-Symbolic AI for Physiological Signal Analysis
 - **Commencement:** September 18, 2025
 - **Confirmation of Candidature:** Completed on June 18, 2026
 
