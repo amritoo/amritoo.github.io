@@ -26,11 +26,11 @@ Research Interests
 News
 ======
 
-- **2026-06-18:** Successfully completed my PhD Confirmation of Candidature at Deakin University.
-- **2025-09-18:** Commenced my PhD in the School of Information Technology at Deakin University, Melbourne Burwood Campus, Victoria, Australia.
-- **2025-07-20:** Began study leave from my Lecturer position at Dhaka International University to pursue doctoral studies.
-- **2025-06-30:** Concluded my term as advisor to the Cyber Security Club at Dhaka International University.
-- **2025-05-22:** Two co-authored chapters on machine learning for CO<sub>2</sub> emissions analysis were published in Springer's *Machine Learning Technologies on Energy Economics and Finance* (see [Publications](/publications/)).
+- **2026-06-18** Successfully completed my PhD Confirmation of Candidature at Deakin University.
+- **2025-09-18** Commenced my PhD in the School of Information Technology at Deakin University, Melbourne Burwood Campus, Victoria, Australia.
+- **2025-07-20** Began study leave from my Lecturer position at Dhaka International University to pursue doctoral studies.
+- **2025-06-30** Concluded my term as advisor to the Cyber Security Club at Dhaka International University.
+- **2025-05-22** Two co-authored chapters on machine learning for CO<sub>2</sub> emissions analysis were published in Springer's *Machine Learning Technologies on Energy Economics and Finance* (see [Publications](/publications/)).
 {: .timeline}
 
 Earlier announcements are available on the [News](/news/) page.
