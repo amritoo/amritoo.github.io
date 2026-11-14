@@ -16,12 +16,16 @@
 
   a {
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+    text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
 
     &:hover {
       text-decoration: underline;
+      text-decoration-color: currentColor;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: var(--global-shadow-strong);
       }
     }
   }
@@ -42,6 +46,16 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  letter-spacing: -0.01em;
+
+  a {
+    text-decoration: none !important;
+
+    &:hover {
+      text-decoration: underline !important;
+      text-decoration-thickness: 2px !important;
+    }
+  }
 
   a + a {
     opacity: 0.5;
@@ -76,11 +90,7 @@
 
 .archive__item:hover {
   .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
-  }
-
-  .archive__item-title {
-    text-decoration: underline;
+    box-shadow: var(--global-shadow-strong);
   }
 }
 

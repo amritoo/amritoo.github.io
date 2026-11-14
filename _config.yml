@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "auto" # "auto" follows the visitor's browser/OS setting; "light" or "dark" sets a fixed default
 title                    : "Amrito Tipu"
 title_separator          : "-"
 name                     : &name "Amrito Tipu"

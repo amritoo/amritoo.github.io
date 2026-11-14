@@ -3,7 +3,7 @@
   padding: 1rem 0;
   text-align: center;
   margin-bottom: 2rem;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid var(--global-border-color, #f2f2f2);
 }
 
 .cv-header-nav .home-button {
@@ -11,16 +11,16 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 1rem;
-  background-color: #2a7ae2;
-  color: white;
+  background-color: var(--global-base-color, #2a7ae2);
+  color: var(--global-accent-contrast, #fff);
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 8px;
   font-weight: 500;
   transition: background-color 0.2s;
 }
 
 .cv-header-nav .home-button:hover {
-  background-color: #1756a9;
+  background-color: var(--global-link-color-hover, #1756a9);
 }
 
 .cv-container {
@@ -33,7 +33,7 @@
   margin-top: 2rem;
   text-align: center;
   padding: 1rem;
-  border-top: 1px solid #f2f2f2;
+  border-top: 1px solid var(--global-border-color, #f2f2f2);
 }
 
 .cv-download-links a {

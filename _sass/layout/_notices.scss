@@ -16,10 +16,11 @@
   font-family: $global-font-family;
   font-size: $type-size-6 !important;
   text-indent: initial; /* override*/
-  background-color: mix(#fff, $notice-color, 90%);
+  background-color: rgba($notice-color, 0.1);
+  border: 1px solid rgba($notice-color, 0.3);
+  border-left: 4px solid $notice-color;
   border-radius: $border-radius;
-  box-shadow: 0 1px 1px rgba($notice-color, 0.25);
-  color: var(--global-code-text-color);
+  color: var(--global-text-color);
 
   h4 {
     margin-top: 0 !important; /* override*/
@@ -45,15 +46,16 @@
   }
 
   a {
-    color: $notice-color;
+    color: var(--global-link-color);
+    font-weight: 600;
 
     &:hover {
-      color: mix(#000, $notice-color, 40%);
+      color: var(--global-link-color-hover);
     }
   }
 
   code {
-    background-color: mix(#fff, $notice-color, 95%)
+    background-color: rgba($notice-color, 0.12);
   }
 
   ul {

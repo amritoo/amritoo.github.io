@@ -4,7 +4,9 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background: var(--global-masthead-bg-color);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+          backdrop-filter: saturate(180%) blur(12px);
   height: fit-content;
   top: 0;
   width: 100%;
@@ -55,7 +57,7 @@
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
+  background-color: transparent;
   display: block;
   list-style-type: none;
   white-space: nowrap;
@@ -63,5 +65,9 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+
+    a {
+      color: var(--global-heading-color);
+    }
   }
 }

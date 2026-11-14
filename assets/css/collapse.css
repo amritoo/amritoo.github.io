@@ -1,12 +1,14 @@
 .container {
     width:100%;
-    border:1px solid #d3d3d3;
+    border:1px solid var(--global-border-color, #d3d3d3);
+    border-radius: 8px;
+    overflow: hidden;
 }
 .container div {
     width:100%;
 }
 .container .header {
-    background-color:#d3d3d3;
+    background-color: var(--global-thead-color, #d3d3d3);
     padding: 2px;
     cursor: pointer;
     font-weight: bold;

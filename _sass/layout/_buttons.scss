@@ -10,20 +10,22 @@
   /* default button */
   display: inline-block;
   margin-bottom: 0.25em;
-  padding: 0.5em 1em;
-  color: #fff !important;
+  padding: 0.55em 1.1em;
+  color: var(--global-accent-contrast) !important;
   font-family: $sans-serif;
   font-size: $type-size-6;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
   background-color: var(--global-base-color);
   border: 0 !important;
   border-radius: $border-radius;
+  box-shadow: var(--global-shadow);
   cursor: pointer;
 
   &:hover {
-    background-color: mix(white, #000, 20%);
+    background-color: var(--global-link-color-hover);
+    transform: translateY(-1px);
   }
 
   .icon {
@@ -53,16 +55,24 @@
     background-color: var(--global-bg-color);
 
     &:hover {
-      color: #fff !important;
-      border-color: var(--global-text-color-light);
+      color: var(--global-accent-contrast) !important;
+      background-color: var(--global-base-color);
+      border-color: var(--global-base-color) !important;
     }
   }
 
   /* light outline */
 
   &--light-outline {
+    color: #fff !important;
     border: 1px solid #fff !important; /* override*/
     background-color: transparent;
+  }
+
+  /* status and social buttons keep white text on their own colours */
+  &--info, &--warning, &--success, &--danger,
+  &--bluesky, &--facebook, &--twitter, &--google-plus, &--linkedin {
+    color: #fff !important;
   }
 
   /* information */

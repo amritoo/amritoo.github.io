@@ -1,0 +1,76 @@
+<!--
+  Theme handling. Runs inline in <head>, before the stylesheet, so the page
+  never flashes the wrong theme.
+
+  Order of precedence:
+    1. A choice the visitor made with the toggle (saved in localStorage)
+    2. site_theme in _config.yml, if set to "light" or "dark"
+    3. The browser / OS preference (prefers-color-scheme), followed live
+
+  Toggling back to the default (2 or 3) clears the saved choice, so the
+  site goes back to following the browser automatically.
+-->
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
+<script>
+  (function () {
+    var root = document.documentElement;
+    var configured = "{{ site.site_theme | default: 'auto' }}";
+    var forced = configured === "light" || configured === "dark" ? configured : null;
+    var mql = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+    var barColors = { light: "#ffffff", dark: "#0d1117" };
+
+    function getStored() {
+      try { var t = localStorage.getItem("theme"); return t === "light" || t === "dark" ? t : null; }
+      catch (e) { return null; }
+    }
+    function setStored(t) {
+      try { t ? localStorage.setItem("theme", t) : localStorage.removeItem("theme"); } catch (e) {}
+    }
+    function baseline() {
+      return forced || (mql && mql.matches ? "dark" : "light");
+    }
+    function apply(theme) {
+      root.setAttribute("data-theme", theme);
+      var metas = document.querySelectorAll('meta[name="theme-color"]');
+      for (var i = 0; i < metas.length; i++) metas[i].setAttribute("content", barColors[theme]);
+      var icon = document.getElementById("theme-icon");
+      if (icon) {
+        icon.classList.toggle("fa-moon", theme === "dark");
+        icon.classList.toggle("fa-sun", theme !== "dark");
+      }
+      var btn = document.getElementById("theme-toggle-btn");
+      if (btn) {
+        var label = theme === "dark" ? "Switch to light theme" : "Switch to dark theme";
+        btn.setAttribute("aria-label", label);
+        btn.setAttribute("title", label);
+      }
+    }
+
+    apply(getStored() || baseline());
+
+    // Follow live OS / browser changes while the visitor hasn't picked a theme
+    if (mql && !forced) {
+      var onChange = function () { if (!getStored()) apply(baseline()); };
+      if (mql.addEventListener) mql.addEventListener("change", onChange);
+      else if (mql.addListener) mql.addListener(onChange);
+    }
+
+    function toggle(e) {
+      if (e) e.preventDefault();
+      var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      setStored(next === baseline() ? null : next);
+      apply(next);
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      apply(root.getAttribute("data-theme"));  // sync the icon now that it exists
+      var btn = document.getElementById("theme-toggle-btn");
+      if (!btn) return;
+      btn.addEventListener("click", toggle);
+      btn.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") toggle(e);
+      });
+    });
+  })();
+</script>

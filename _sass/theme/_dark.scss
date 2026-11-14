@@ -2,53 +2,43 @@
    DARK THEME
    ========================================================================== */
 
-/* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+@mixin dark-theme-vars {
+    color-scheme: dark;
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+    --global-base-color                 : #6cb6ff;
+    --global-accent-contrast            : #0d1117;
+    --global-bg-color                   : #0d1117;
+    --global-surface-color              : #161b22;
+    --global-footer-bg-color            : #10141b;
+    --global-masthead-bg-color          : rgba(13, 17, 23, 0.82);
+    --global-border-color               : #262c36;
+    --global-dark-border-color          : #30363d;
+    --global-code-background-color      : #161b22;
+    --global-code-text-color            : #e6edf3;
+    --global-fig-caption-color          : #8b949e;
+    --global-heading-color              : #f0f6fc;
+    --global-link-color                 : #6cb6ff;
+    --global-link-color-hover           : #9cd1ff;
+    --global-link-color-visited         : #a5b4fc;
+    --global-masthead-link-color        : #c9d1d9;
+    --global-masthead-link-color-hover  : #6cb6ff;
+    --global-text-color                 : #e6edf3;
+    --global-text-color-light           : #8b949e;
+    --global-thead-color                : #1c222b;
+    --global-selection-color            : rgba(108, 182, 255, 0.3);
+    --global-shadow                     : 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 14px rgba(0, 0, 0, 0.3);
+    --global-shadow-strong              : 0 4px 10px rgba(0, 0, 0, 0.45), 0 12px 32px rgba(0, 0, 0, 0.5);
+}
 
-/* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-
-/* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
-$masthead-height            : 70px;
-$navicon-width              : 28px;
-$navicon-height             : 4px;
-$sidebar-link-max-width     : 250px;
-$sidebar-screen-min-width   : 1024px;
-
-/* Dark theme for the site */
+/* Explicit choice (toggle button, or site_theme: "dark" in _config.yml) */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$background};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$background-lighter};
+    @include dark-theme-vars;
+}
+
+/* Follow the browser / OS preference unless light was explicitly chosen.
+   This also works before (or without) JavaScript, so there is no flash. */
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) {
+        @include dark-theme-vars;
+    }
 }
