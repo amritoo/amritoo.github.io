@@ -18,3 +18,4 @@ All announcements, listed in reverse chronological order.
 - **2022-03-05:** My team won the Mujib 100 Years' Programming Contest 2022, organized by Programmers' Arena (PA), HSTU.
 - **2021-02-09:** Received the Dean's Merit List Award for academic performance in the second academic year.
 - **2018-01-07:** Began undergraduate studies in Computer Science and Engineering at Hajee Mohammad Danesh Science and Technology University (HSTU), Dinajpur-5200, Bangladesh.
+{: .timeline}

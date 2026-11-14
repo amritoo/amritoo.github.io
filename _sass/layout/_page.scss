@@ -111,6 +111,77 @@
   }
 }
 
+/*
+   Timeline lists (add {: .timeline} after a Markdown list)
+   ========================================================================== */
+
+.timeline {
+  $dot: 12px;
+  $gutter: 1.75rem;
+
+  list-style: none;
+  margin-left: 0;
+  padding-left: $gutter;
+
+  > li {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 1.25em;
+
+    /* connector line running down to the next item */
+    &::after {
+      content: "";
+      position: absolute;
+      left: calc(#{-$gutter} + #{$dot * 0.5} - 1px);
+      top: calc(0.35em + #{$dot});
+      bottom: -0.35em;
+      width: 2px;
+      border-radius: 2px;
+      background: var(--global-border-color);
+    }
+
+    /* dot */
+    &::before {
+      content: "";
+      position: absolute;
+      left: -$gutter;
+      top: 0.35em;
+      width: $dot;
+      height: $dot;
+      box-sizing: border-box;
+      border-radius: 50%;
+      border: 2px solid var(--global-base-color);
+      background: var(--global-bg-color);
+      z-index: 1;
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    /* the most recent item gets a filled, glowing dot */
+    &:first-child::before {
+      background: var(--global-base-color);
+      box-shadow: 0 0 0 4px var(--global-selection-color);
+    }
+
+    /* the leading **date:** becomes a small label above the text */
+    > strong:first-child {
+      display: block;
+      margin-bottom: 0.15em;
+      font-size: 0.8em;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      font-variant-numeric: tabular-nums;
+      color: var(--global-text-color-light);
+    }
+  }
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
